@@ -1,0 +1,14 @@
+x=int(input('enter the score'))
+
+if x<25:
+    print('grade is F')
+elif x>=25 and x<45:
+    print('grade is E')
+elif x>=45 and x<50:
+    print('grade is D')
+elif x>=50 and x<60:
+    print('grade is C')
+elif x>=60 and x<80:
+    print('grade is B')
+elif x>=80:
+    print('grade is A')
